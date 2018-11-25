@@ -15,8 +15,8 @@
 
     <div id="foot_social">
      <ul class="amz-social">
-        <a href="https://github.com/liaoscdy" class="am-icon-btn am-icon-github"></a>
-        <a href="https://twitter.com/ShichaoLiao" class="am-icon-btn am-icon-twitter"></a>
+        <a href="#" class="am-icon-btn am-icon-github"></a>
+        <a href="#" class="am-icon-btn am-icon-twitter"></a>
         <a href="##" class="am-icon-btn am-icon-cny"></a>
      </ul>
     </div>
@@ -26,7 +26,7 @@
     <?php _e('Powered by <a href="http://www.typecho.org">Typecho</a>'); ?>. <br>
     <a href="http://www.miibeian.gov.cn">
       <img src="<?php $this->options->themeUrl('img/beian.png'); ?>">
-      蜀ICP备15018073号-1
+      蜀ICP备xxxxxxxx号-1
     </a>
     </p>
   </div>
