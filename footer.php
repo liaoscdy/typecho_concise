@@ -26,7 +26,7 @@
     <?php _e('Powered by <a href="http://www.typecho.org">Typecho</a>'); ?>. <br>
     <a href="http://www.miibeian.gov.cn">
       <img src="<?php $this->options->themeUrl('img/beian.png'); ?>">
-      蜀ICP备xxxxxxxx号-1
+      ICP备xxxxxxxx号
     </a>
     </p>
   </div>

@@ -14,10 +14,6 @@
 
 &emsp;&emsp;将 img 目录下的 blogger.jpg / blogger.png 替换成想修改的头像即可。
 
-### 评论
-
-&emsp;&emsp;我使用的评论是搜狐的 [畅言](http://changyan.kuaizhan.com/)  ，若还是要使用它，则在 comments.php 中添上您在畅言上的 appid 和 conf。
-
 ### social 
 
 &emsp;&emsp;在 footer.php 中，填上您的 github 地址，twitter 地址即可。

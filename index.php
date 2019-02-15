@@ -19,7 +19,7 @@ if (!defined('__TYPECHO_ROOT_DIR__')) exit;
         		<a href="<?php $this->permalink() ?>"><?php $this->title() ?></a>
       		</h3>
       		<h4 class="am-article-meta blog-meta">
-      			创建于: <?php $this->date(); ?> | 分类: <?php $this->category(' , '); ?> | <a href="<?php $this->permalink() ?>#comments"><span id = "sourceId::<?php echo $this->cid;?>" class = "cy_cmt_count" ></span> 条评论</a>
+      			创建于: <?php $this->date(); ?> | 分类: <?php $this->category(' , '); ?> | <a href="<?php $this->permalink() ?>#comments"><?php $this->commentsNum('评论', '1 条评论', '%d 条评论'); ?></a>
       		</h4>
             <div class="am-g blog-content" itemprop="articleBody">
             	<div class="am-u-sm-12">
@@ -37,10 +37,6 @@ if (!defined('__TYPECHO_ROOT_DIR__')) exit;
     <?php $this->pageNav('&laquo; 前一页', '后一页 &raquo;', 10, '...', 
     	'wrapTag=ul&wrapClass=am-pagination am-pagination-centered&currentClass=am-active'); ?>
 </div><!-- end #main-->
-
-<script 
-  id="cy_cmt_num" src="http://changyan.sohu.com/upload/plugins/plugins.list.count.js?clientId=cytUK0G45">
-</script>
 
 <?php $this->need('sidebar.php'); ?>
 <?php $this->need('footer.php'); ?>
